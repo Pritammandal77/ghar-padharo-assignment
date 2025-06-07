@@ -71,7 +71,7 @@ function Home() {
         </div>
       </div>
 
-      <div className='flex flex-col items-center py-10 bg-amber-300'>
+      <div className='flex flex-col items-center py-10'>
         <div>
           <h1 className='text-3xl lg:text-4xl px-5 text-center lg:text-left'>PG Homes with Wi-Fi & many facilities</h1>
         </div>
@@ -81,7 +81,6 @@ function Home() {
           <PropertyCard imgUrl="/property3.jpg" price="11999" location="Dadar East, Mumbai" owner="Hello Builders" gender="For Boys" />
           <PropertyCard imgUrl="/property4.jpg" price="13999" location="Andheri East, Mumbai" owner="Pritam Residence" gender="For Girls" />
         </div>
-
       </div>
 
     </>
