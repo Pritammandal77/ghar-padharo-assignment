@@ -9,7 +9,6 @@ function PropertyCard(props) {
                     <p className='text-xl font-semibold'>₹ {props.price} <span className='text-gray-600'>/ Month</span> </p>
                     <p>{props.location}</p>
                     <p>{props.owner} <span className='bg-gray-400 px-1 rounded'>{props.gender}</span></p>
-                    {/* <p className='bg-[#969696] inline'>{props.gender}</p> */}
                     <button className='bg-[#D8232A] w-[55%] p-2 text-[18px] cursor-pointer text-white rounded-xl'>Contact Owner</button>
                 </div>
 
