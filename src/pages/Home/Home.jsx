@@ -51,8 +51,8 @@ function Home() {
             </div>
           </div>
         </div>
-
-        <div className='w-full pt-8 xl:pt-15 flex flex-col gap-10 py-10'>
+ 
+        <div className='w-full pt-8 xl:pt-15 flex flex-col gap-10 py-10 '>
           <div>
             <h1 className='text-2xl md:text-3xl text-center xl:text-left'>Find a PG & Hostel Away from Home</h1>
           </div>
@@ -78,8 +78,8 @@ function Home() {
         <div className='w-[100vw] md:w-[90vw] lg:[80vw] xl:w-[100vw] xl:px-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center py-10 gap-y-5' >
           <PropertyCard imgUrl="/property1.jpg" price="12000" location="Dadar West, Mumbai" owner="Rudra Real Estate" gender="For Girls" />
           <PropertyCard imgUrl="/property2.jpg" price="10999" location="Juhu, Mumbai" owner="Maruti Estate Agency" gender="For Boys" />
-          <PropertyCard imgUrl="/property3.jpg" price="11999" location="Dadar East, Mumbai" owner="Hello Builders" gender="For Boys" />
-          <PropertyCard imgUrl="/property4.jpg" price="13999" location="Andheri East, Mumbai" owner="Pritam Residence" gender="For Girls" />
+          <PropertyCard imgUrl="/property3.jpg" price="11999" location="Dadar East, Mumbai" owner="Pritam Residence" gender="For Boys" />
+          <PropertyCard imgUrl="/property4.jpg" price="13999" location="Andheri East, Mumbai" owner="Hello Builders" gender="For Girls" />
         </div>
       </div>
 
